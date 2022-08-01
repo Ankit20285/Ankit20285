@@ -1,0 +1,244 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body 
+{
+    display: flex;
+    background: #eeeeee;
+}
+.text_container h1 {
+    position: absolute;
+    top: 252px;
+    left: 250px;
+    font-size: 4.5rem;
+    color: #0054fd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 750;
+}
+.text_container p {
+    position: absolute;
+    top: 350px;
+    left: 250px;
+    font-size: 2.5rem;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Box */
+
+.box {
+    position: relative;
+    top: 180px;
+    left: 1020px;
+    height: 462px;
+    width: 522px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.username {
+    position: absolute;
+    height: 65px;
+    left: 22px;
+    width: 480px;
+    top: 20px;
+    border-radius: 10px;
+    border: 1px solid #eeeeee;
+    font-size: 1.5rem;
+    padding: 1px 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.password {
+    position: absolute;
+    height: 65px;
+    left: 22px;
+    width: 480px;
+    top: 103px;
+    border-radius: 10px;
+    border: 1px solid #eeeeee;
+    font-size: 1.5rem;
+    padding: 1px 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.changing_icon {
+    position: absolute;
+    top: 122px;
+    right: 44px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.fa-eye-slash  {
+    display: none;
+}
+
+.login { 
+    position: absolute;
+    height: 65px;
+    left: 22px;
+    width: 480px;
+    top: 200px;
+    border-radius: 10px;
+    border: 1px solid #eeeeee;
+    background: #166fe5;
+    font-size: 1.5rem;
+    padding: 1px 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.login:hover {
+    background: #056aee;
+}
+
+.fp { 
+    position: absolute;
+    top: 280px;
+    left: 178px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fp:hover {
+    text-decoration: underline;
+}
+
+.create { 
+    position: absolute;
+    height: 65px;
+    left: 140px;
+    width: 260px;
+    top: 360px;
+    border-radius: 10px;
+    border: 1px solid #eeeeee;
+    background: #3cd41d;
+    font-size: 1.5rem;
+    padding: 1px 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.create:hover {
+    background: #51b63c;
+}
+
+
+
+/* Sign Box  */
+
+.sign_box { 
+    display: none;
+    position: relative;
+    height: 700px;
+    top: 120px;
+    left: 90px;
+    width: 570px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.sign_txt {
+    position: absolute;
+    top: 16px;
+    left: 24px;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.fa-xmark {
+    position: absolute;
+    top: 16px;
+    right: 25px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.para_window {
+    position: absolute;
+    left: 25px;
+    top: 60px;
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Fname {
+    position: absolute;
+    height: 65px;
+    left: 22px;
+    width: 256px;
+    top: 125px;
+    border-radius: 10px;
+    border: 1px solid #eeeeee;
+    font-size: 1.5rem;
+    padding: 1px 10px;
+}
+
+.Sname {
+    position: absolute;
+    height: 65px;
+    right: 22px;
+    width: 256px;
+    top: 125px;
+    border-radius: 10px;
+    border: 1px solid #eeeeee;
+    font-size: 1.5rem;
+    padding: 1px 10px;
+}
+.mobile_no {
+    position: absolute;
+    height: 60px;
+    left: 22px;
+    width: 530px;
+    top: 200px;
+    border-radius: 10px;
+    border: 1px solid #eeeeee;
+    font-size: 1.5rem;
+    padding: 1px 10px;
+}
+
+.sign_password {
+    position: absolute;
+    height: 60px;
+    left: 22px;
+    width: 530px;
+    top: 275px;
+    border-radius: 10px;
+    border: 1px solid #eeeeee;
+    font-size: 1.5rem;
+    padding: 1px 10px;
+}
+
+.DOB {
+    position: absolute;
+    height: 60px;
+    left: 22px;
+    width: 530px;
+    top: 370px;
+    border-radius: 10px;
+    border: 1px solid #eeeeee;
+    font-size: 1.5rem;
+    padding: 1px 10px;
+}
+
+.dob {
+    position: absolute;
+    font-family: cursive;
+    left: 27px;
+    top: 340px;
+    font-size: 1.2rem;
+}
+
+.main_txt {
+    position: absolute;
+    bottom: 50px;
+}

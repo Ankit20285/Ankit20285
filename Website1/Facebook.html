@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <title>Facebook - log in or sign up</title>
+    <script src="https://kit.fontawesome.com/07e45f6e38.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Facebook.css">
+</head>
+<body>
+    <div id="all" class="all">
+    <div id="text" class="text_container">
+        <h1>facebook</h1>
+        <p>Facebook helps you connect and share <br> with the people in your life.</p>
+    </div>
+    <div class="box">
+        <input placeholder="Email address or phone number" class="username" type="email">
+        <input placeholder="Password" class="password" type="password">
+        <i onclick="show()" id="fa_show" class="fa-solid fa-eye changing_icon"></i>
+        <i onclick="hide()" id="fa_hide" class="fa-solid fa-eye-slash changing_icon"></i>
+        <button class="login">Log In</button>
+        <a class="fp" href="#">Forgotten password?</a>
+        <button onclick="signup()" id="Signupblck" class="create">Create New Account</button>
+    </div>
+</div>
+    <div id="sign_bx_blck" class="sign_box">
+        <h3 class="sign_txt">Sign Up</h3>
+        <i onclick="window_cut()" id="cut_mark" class="fa-solid fa-xmark"></i>
+        <p class="para_window">It's quick and easy.</p>
+        <input placeholder="First name" type="text" class="name Fname">
+        <input placeholder="Surname" type="text" class="name Sname">
+        <input placeholder="Mobile number or email address" type="text" class="mobile_no" maxlength="10">
+        <input placeholder="New password" type="password" class="sign_password">
+        <p class="dob">Date of birth</p>
+        <input placeholder="New password" type="date" class="DOB">
+        <p class="main_txt">People who use our service may have uploaded your contact information to Facebook.<a href="#"> Learn more.</p></a>
+        <p class="TC">By clicking Sign Up, you agree to our <a href="#"> Terms, Privacy Policy</a> and <a href="#">Cookies Policy</a>. You may receive SMS Notifications from us and can opt out any time.</p>
+    </div>
+    <script src="Facebook.js"></script>
+</body>
+</html>
